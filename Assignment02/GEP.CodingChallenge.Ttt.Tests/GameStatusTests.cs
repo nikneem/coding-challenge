@@ -17,6 +17,7 @@ namespace GEP.CodingChallenge.Ttt.Tests
         [TestCase("OXX\n.X.\nOXO")]
         [TestCase("OOX\n..X\nOOX")]
         [TestCase("XOO\nX..\nXOO")]
+        [TestCase("OXX\nXXO\nOXO")]
         public void WhenPlayerXIsTheWinner_ThenTheCorrectStatusMessageIsShown(string statusRepresentation)
         {
             var expectedStatusText = "Player X is the winner!";

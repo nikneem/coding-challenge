@@ -26,7 +26,6 @@ namespace GEP.CodingChallenge.Ttt.Persistence
                             var player = players.FirstOrDefault(plyr => plyr.Symbol.Equals(currentCharacter));
                             if (player != null)
                             {
-
                                 storedMoves.Add(new Coordinate(character + 1, currentLineCount + 1, player));
                             }
                         }
@@ -45,3 +44,4 @@ namespace GEP.CodingChallenge.Ttt.Persistence
     }
 
 }
+
